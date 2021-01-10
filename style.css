@@ -207,8 +207,8 @@ img{vertical-align: top;}
 	transition: all 0.3s ease;
 }
 .sale__button button:hover {
-	color: black;
-	border: 2px solid black;
+	color: #F13C6E;
+	background: #fff;
 }
 
 .content {
@@ -365,6 +365,7 @@ img{vertical-align: top;}
 	box-sizing: border-box;
 	border-radius: 30px;
 	color: #fff;
+	transition: all 0.3s ease;
 }
 .content__map_img img {
 	width: 140px;
@@ -372,9 +373,8 @@ img{vertical-align: top;}
 	opacity: 0.3;
 }
 .content__map_text button:hover{
-	color: black;
-	border: 2px solid black;
-
+	color: #F13C6E;
+	background: #fff;
 }
 
 
@@ -474,8 +474,12 @@ img{vertical-align: top;}
 	font-weight: normal;
 	font-size: 14px;
 	line-height: 16px;
+	transition: all 0.3s ease;
 }
-
+.contact__button button:hover {
+	background: #F13C6E;
+	color: #fff;
+}
 
 
 .end {
@@ -496,4 +500,21 @@ img{vertical-align: top;}
 	font-size: 12px;
 	line-height: 14px;
 	color: #828282;
+}
+
+
+
+
+
+
+
+
+
+/*медиа*/
+
+
+@media(max-width: 1120px) {
+	.container {
+		min-width: 970px;
+	}
 }
